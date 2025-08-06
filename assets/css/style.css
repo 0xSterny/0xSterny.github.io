@@ -67,13 +67,21 @@ body, html {
 }
 
 /* Blog list styles */
+.blog-list li {
+    margin-bottom: 20px; /* Space between blog entries */
+}
+
 .blog-list h2 {
-    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 2px; /* Tighter space below the title */
 }
 
 .blog-list .last-updated {
-    margin-top: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
     margin-left: 20px; /* Indentation */
+    font-size: 0.9em;
+    color: #999;
 }
 
 .header h1, .header p {
