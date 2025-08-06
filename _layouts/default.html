@@ -8,18 +8,20 @@
 </head>
 <body>
     <canvas id="stars-bg"></canvas>
-    <div class="container">
-        {% include sidebar.html %}
-        <div class="content">
-            <header>
-                {% include header.html %}
-            </header>
-            <main>
-                {{ content }}
-            </main>
-            <footer>
-                {% include footer.html %}
-            </footer>
+    <div class="site-wrapper">
+        <div class="container">
+            {% include sidebar.html %}
+            <div class="content">
+                <header>
+                    {% include header.html %}
+                </header>
+                <main>
+                    {{ content }}
+                </main>
+                <footer>
+                    {% include footer.html %}
+                </footer>
+            </div>
         </div>
     </div>
     <script src="{{ "/assets/js/stars.js" | relative_url }}"></script>
