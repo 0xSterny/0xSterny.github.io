@@ -66,6 +66,16 @@ body, html {
     color: #00ff00;
 }
 
+/* Blog list styles */
+.blog-list h2 {
+    margin-bottom: 0;
+}
+
+.blog-list .last-updated {
+    margin-top: 5px;
+    margin-left: 20px; /* Indentation */
+}
+
 .header h1, .header p {
     color: #00ff00;
 }
