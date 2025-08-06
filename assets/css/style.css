@@ -32,12 +32,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .sidebar ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 100%; /* Ensure the list takes full width for link borders */
 }
 
 .sidebar a {
@@ -46,6 +48,7 @@ body {
     display: block;
     padding: 10px;
     border-bottom: 1px solid #333;
+    text-align: center;
 }
 
 /* Content styles */
@@ -53,6 +56,9 @@ body {
     margin-left: 240px;
     padding: 20px;
     width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(13, 13, 13, 0.85); /* Dark, semi-transparent background */
 }
 
 .header h1, .header p {
